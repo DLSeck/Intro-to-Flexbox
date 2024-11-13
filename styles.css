@@ -1,0 +1,111 @@
+* {
+    box-sizing: borderbox;
+  }
+  
+  .flex-container {
+      /* display: flex; */
+      background:lightgreen;
+      border:5px solid green;
+      margin:5px
+    }
+    
+    .top-container,.bot-container{
+      display:flex;
+      height:200px;
+      flex:1;
+      margin:20px;
+      background: lightblue;
+      border:5px solid blue;
+    }
+    .mid-container {
+      display:flex;
+      height: 350px;
+      flex: 1;
+      margin: 20px;
+    }
+    
+    .top-mini-container, .top-mini-container2{
+      border: 5px solid darkorange;
+      background:peachpuff;
+      flex:1px;
+      margin:20px;
+      height:150px;
+    }
+    .top-mini-container2{
+      display:flex;
+    }
+    .top-mid-mini-container1,.top-mid-mini-container2 {
+      border: 5px solid red;
+      background: salmon;
+      margin-left:5px;
+      margin-top:5px;
+      margin-bottom:5px;
+      width:250px;
+    }
+    .top-mid-mini-container2 {
+      margin-right:5px;
+      margin-top:5px;
+    }
+    
+    .mid-mini-container-left{
+      border: 5px solid red;
+      background: salmon;
+      margin-right:0px;
+      width: 1000px;
+      display:flex;
+    }
+    .mid-mini-container-right{
+      border:0px;
+      background:0px;
+      margin-left:10px;
+      padding:0px;
+      width: 1000px;
+    }
+    .mid-mini-inner-container1{
+      border: 5px solid red;
+      background: salmon;
+      margin-left:5px;
+      margin-bottom:5px;
+      width:px;
+      height:155px;
+    }
+  .mid-mini-inner-container2{
+      border: 5px solid red;
+      background: salmon;
+      margin-left:5px;
+      margin-top:20px;
+      width:px;
+      height:155px;
+    }
+    .bot-mini-container-left,.bot-mini-container-right,.bot-mini-container2{
+      border: 5px solid purple;
+      background:lavender;
+      flex:1px;
+      margin:20px;
+      height:150px;
+    }
+  .bot-mini-container-left{
+    margin-right:0px;
+  }
+  .bot-mini-container-right{
+    margin-left:0px;
+  }
+  .bot-mini-container2{
+    display:flex;
+    padding:0px;
+    border:transparent;
+    background:transparent;
+  }
+  .bot-mini-mid-container1,.bot-mini-mid-container2{
+    background:peachpuff;
+    padding:0px;
+    flex:1px;
+    border:5px solid orange;
+    height:150px;
+  }
+  .bot-mini-mid-container1{
+    margin-right:10px;
+  }
+  .bot-mini-mid-container2{
+    margin-left:0px;
+  }
